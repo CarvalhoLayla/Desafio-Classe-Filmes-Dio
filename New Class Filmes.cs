@@ -4,7 +4,7 @@ using DIO.Filmes.Interfaces;
 
 namespace DIO.Filmes
 {
-	public class SerieRepositorio : IRepositorio<Serie>
+	public class FilmesRepositorio : IRepositorio<Filmes>
 	{
         private List<Filmes> listaFilmes= new List<Filmes>();
 		public void Atualiza(int id, Filmes objeto)
